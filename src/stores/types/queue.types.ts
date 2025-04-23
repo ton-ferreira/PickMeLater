@@ -2,7 +2,7 @@ import {
   QueueItemPriority,
   QueueItemStatus,
   QueueItemType,
-} from "types/queueItemEnums";
+} from "@models/queueItemEnums";
 
 export type QueueItem = {
   addedAt: Date;
