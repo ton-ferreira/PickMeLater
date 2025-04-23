@@ -6,6 +6,7 @@ export const QueueItemContainer = styled(Box)`
   cursor: pointer;
   border-radius: 1rem !important;
   border: 2px solid ${grey[100]};
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1) !important;
 `;
 
 export const QueueItemNoteWrapper = styled(Grid)`
