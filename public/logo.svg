@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="150" cy="150" r="150" id="gradient-0">
+      <stop offset="0" style="stop-color: rgb(38, 28, 21);"/>
+      <stop offset="1" style="stop-color: rgb(127, 216, 109);"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="135" cy="125" r="55" id="gradient-1" gradientTransform="matrix(1.068832, 0, 0, 1.057753, -18.235718, -2.984735)">
+      <stop offset="0" style="stop-color: rgb(218, 174, 85);"/>
+      <stop offset="1" style="stop-color: rgb(141, 122, 41);"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="145" cy="115" r="55" id="gradient-2" gradientTransform="matrix(1.064976, 0, 0, 1.118819, 0.235551, -29.198673)">
+      <stop offset="0" style="stop-color: rgb(218, 211, 85);"/>
+      <stop offset="1" style="stop-color: rgb(135, 141, 41);"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="155" cy="105" r="55" id="gradient-3" gradientTransform="matrix(1.099231, 0, 0, 1.093415, 16.525651, -38.186821)">
+      <stop offset="0" style="stop-color: rgb(170, 218, 85);"/>
+      <stop offset="1" style="stop-color: rgb(66, 141, 41);"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <circle cx="150" cy="150" r="150" style="fill: url(&quot;#gradient-0&quot;);"/>
+  <g transform="matrix(1.197688, 0, 0, 1.157513, -35.064434, 30.731632)" fill="none" stroke="#1f2e39" stroke-width="5" stroke-linecap="round" style="">
+    <rect x="67.27" y="71.058" width="117.572" height="116.353" rx="20" style="fill: url(&quot;#gradient-1&quot;);"/>
+    <rect x="96.083" y="37.931" width="117.147" height="123.071" rx="20" style="fill: url(&quot;#gradient-2&quot;);"/>
+    <rect x="126.447" y="16.484" width="120.915" height="120.276" rx="20" style="fill: url(&quot;#gradient-3&quot;);"/>
+    <line x1="148.432" y1="71.156" x2="214.386" y2="71.156" style=""/>
+    <line x1="148.432" y1="93.023" x2="203.394" y2="93.023" style=""/>
+  </g>
+</svg>

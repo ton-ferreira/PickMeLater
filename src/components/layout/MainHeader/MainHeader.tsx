@@ -1,7 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import {
   MainHeaderWrapper,
-  IllustrationWrapper,
   MainHeaderIllustration,
   MainHeaderIllustrationWrapper,
 } from "./MainHeader.style";
