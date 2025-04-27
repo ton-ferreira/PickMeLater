@@ -51,7 +51,7 @@ function QueueItem({ id, name, notes, priority, type, url }: IQueueItem) {
           </Grid>
         </Grid>
         <Grid container gap={1}>
-          <Chip label={priority} color="info" variant="outlined" />
+          <Chip label={priority} color="secondary" variant="outlined" />
           <Chip label="Sci-fi" variant="outlined" />
           <Chip label="Drama" variant="outlined" />
         </Grid>

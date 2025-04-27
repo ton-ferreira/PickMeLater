@@ -86,7 +86,7 @@ function QueueItemEditor({
         />
 
         <Grid container gap={{ xs: 1, md: 2 }} direction="row">
-          <Button onClick={onClose} fullWidth>
+          <Button color="secondary" onClick={onClose} fullWidth>
             Cancel
           </Button>
           <Button

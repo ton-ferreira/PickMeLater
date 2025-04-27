@@ -29,7 +29,7 @@ function QueueItemIcon({ type }: QueueItemIconProps) {
       sx={{
         width: 48,
         height: 48,
-        borderRadius: "50%",
+        borderRadius: "1rem",
         backgroundColor: queueItemTypeColors[type],
         display: "flex",
         alignItems: "center",
