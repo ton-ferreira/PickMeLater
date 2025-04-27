@@ -1,4 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
+import { useTheme } from "@mui/material/styles";
 
 import {
   SidebarIconContainer,

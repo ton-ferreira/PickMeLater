@@ -16,6 +16,7 @@
     "jsx": "react-jsx",
 
     /* Linting */
+    "typeRoots": ["./node_modules/@types", "./src/types"],
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -29,8 +30,11 @@
       "@utils/*": ["utils/*"],
       "@hooks/*": ["hooks/*"],
       "@models/*": ["models/*"],
-      "@theme/*": ["theme/*"]
-    }
+      "@theme/*": ["theme/*"],
+      "@mui/*": ["../node_modules/@mui/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./src"],
+    "types": ["@emotion/react"]
   },
   "include": ["src"]
 }

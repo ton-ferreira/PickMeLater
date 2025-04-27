@@ -7,16 +7,16 @@ import { Grid, Typography } from "@mui/material";
 
 function Home() {
   return (
-    <Grid container spacing={3} direction="column">
+    <Grid container spacing={4} direction="column">
       <MainHeader
         description="All your saved content, in one place. Prioritize, explore, and come back later—on your terms."
         illustration={readingDoodle}
         title="Your items"
       />
-      <Typography variant="h5" fontWeight="bold">
+      <Typography variant="h5" fontWeight="bold" color="text.primary">
         Check what you're missing
       </Typography>
-      {/* <QueueItemEditor
+      <QueueItemEditor
         id={"1"}
         name="Nightmare"
         notes={"Starts slow but get better"}
@@ -25,7 +25,7 @@ function Home() {
         url="https://google.com/"
         open={false}
         onClose={() => {}}
-      /> */}
+      />
       <Grid container spacing={2}>
         <Grid item size={{ xs: 12, md: 4 }}>
           <QueueItem

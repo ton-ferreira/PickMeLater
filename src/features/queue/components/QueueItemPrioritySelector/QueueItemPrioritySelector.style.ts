@@ -1,9 +1,7 @@
-import { ToggleButton, ToggleButtonGroup } from "@mui/material";
-import { blueGrey, grey } from "@mui/material/colors";
-import styled from "styled-components";
+import { styled, ToggleButton, ToggleButtonGroup } from "@mui/material";
 
 export const QueueItemPriorityBtnGroup = styled(ToggleButtonGroup)`
-  background: ${blueGrey[50]};
+  background: ${({ theme }) => theme.palette.background.paper};
   border-radius: 1.25rem !important;
   padding: 4px;
   display: flex;
